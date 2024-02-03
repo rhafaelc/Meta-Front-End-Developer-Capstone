@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../images/Logo.svg';
 
 function Nav() {
@@ -56,12 +57,38 @@ function Nav() {
             padding: '10px',
           }
         }>
-          <li style={listStyle}><a href="/" style={linkStyle}>Home</a></li>
-          <li style={listStyle}><a href="#about" style={linkStyle}>About</a></li>
-          <li style={listStyle}><a href="#menu" style={linkStyle}>Menu</a></li>
-          <li style={listStyle}><a href="#reservations" style={linkStyle}>Reservations</a></li>
-          <li style={listStyle}><a href="#order-online" style={linkStyle}>Order Online</a> </li>
-          <li style={listStyle}><a href="#login" style={linkStyle}>Login</a></li>
+          <li style={listStyle}><Link to="/" style={linkStyle}>Home</Link></li>
+          <li style={listStyle}>
+            <Link
+              to="/"
+              style={linkStyle}
+              onClick={() => {
+                window.scrollTo({
+                  top: document.querySelector('#about').offsetTop,
+                  behavior: 'smooth'
+                });
+              }}
+            >
+              About
+            </Link>
+          </li>
+          <li style={listStyle}>
+            <Link
+              to="/"
+              style={linkStyle}
+              onClick={() => {
+                window.scrollTo({
+                  top: document.querySelector('#menu').offsetTop,
+                  behavior: 'smooth'
+                });
+              }}
+            >
+              Menu
+            </Link>
+          </li>
+          <li style={listStyle}><Link to="/reservations" style={linkStyle}>Reservations</Link></li>
+          <li style={listStyle}><Link to="/order" style={linkStyle}>Order Online</Link></li>
+          <li style={listStyle}><Link to="/login" style={linkStyle}>Login</Link></li>
         </li>
       </ul >
     </nav>

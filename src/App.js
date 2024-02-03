@@ -1,17 +1,22 @@
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import BookingPage from './pages/BookingPage';
+import OrderOnlinePage from './pages/OrderOnlinePage';
+import LoginPage from './pages/LoginPage';
 import './App.css';
-import Nav from './components/Nav';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <>
-      <Nav />
-      <Header />
-      <Main />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/reservations" element={<BookingPage />} />
+        <Route path="/order" element={<OrderOnlinePage />} />
+        <Route path="/login" element={<LoginPage />} />
+      </Routes>
+    </Router>
   );
 }
 

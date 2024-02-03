@@ -1,3 +1,15 @@
+# Little Lemon Restaurant Booking Website
+
+## Project Description
+
+Developed during Meta's Coursera Front-End Development course, this project serves as a practical application of my skills in building a reservation feature for the Little Lemon Website using React Components. It's worth noting that the "Reserve a Table" function is the sole operational feature on the site.
+
+## Screenshots
+Here are some screenshots of the application.
+![homepage](public/screencapture-homepage.png)
+![reservation](public/screencapture-reservation.png)
+![confirmed](public/screencapture-confirmed.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

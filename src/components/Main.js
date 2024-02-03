@@ -3,6 +3,7 @@ import HomePage from '../pages/HomePage';
 import BookingPage from '../pages/BookingPage';
 
 function Main() {
+
   return (
     <>
 

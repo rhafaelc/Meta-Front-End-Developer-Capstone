@@ -44,8 +44,8 @@ function Footer() {
           <li><a style={{color: 'white', textDecoration: 'none'}} href="#about">About</a></li>
           <li><a style={{color: 'white', textDecoration: 'none'}} href="#menu">Menu</a></li>
           <li><a style={{color: 'white', textDecoration: 'none'}} href="/reservations">Reservations</a></li>
-          <li><a style={{color: 'white', textDecoration: 'none'}} href="/order-online">Order Online</a> </li>
-          <li><a style={{color: 'white', textDecoration: 'none'}} href="/login">Login</a></li>
+          <li><a style={{color: 'grey', textDecoration: 'none'}} href="/">Order Online</a> </li>
+          <li><a style={{color: 'grey', textDecoration: 'none'}} href="/">Login</a></li>
         </ul>
         <ul id="contact" style={{
           flex: '1',

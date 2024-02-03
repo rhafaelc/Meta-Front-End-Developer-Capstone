@@ -21,7 +21,7 @@ function Nav() {
   }
 
   return (
-    <nav style={{ height: '72px', }}>
+    <nav style={{ height: '96px' }}>
       <ul style={
         {
           display: 'grid',
@@ -87,8 +87,20 @@ function Nav() {
             </Link>
           </li>
           <li style={listStyle}><Link to="/reservations" style={linkStyle}>Reservations</Link></li>
-          <li style={listStyle}><Link to="/order" style={linkStyle}>Order Online</Link></li>
-          <li style={listStyle}><Link to="/login" style={linkStyle}>Login</Link></li>
+          <li style={listStyle}><Link to="/" style={{
+            textDecoration: 'none',
+            fontFamily: 'Markazi Text, sans-serif',
+            color: '#d3d3d3',
+            fontSize: '0.9em',
+            fontWeight: 'bold',
+          }}>Order Online</Link></li>
+          <li style={listStyle}><Link to="/" style={{
+            textDecoration: 'none',
+            fontFamily: 'Markazi Text, sans-serif',
+            color: '#d3d3d3',
+            fontSize: '0.9em',
+            fontWeight: 'bold',
+          }}>Login</Link></li>
         </li>
       </ul >
     </nav>

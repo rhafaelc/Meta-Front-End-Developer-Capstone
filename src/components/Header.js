@@ -53,7 +53,9 @@ function Header() {
             borderRadius: '8px',
             fontFamily: 'Karla, sans-serif',
             fontWeight: 'bold',
-          }}>
+          }}
+            onClick={() => { window.location.href = '/reservations'; }}
+          >
             Reserve a Table
           </button>
         </div>

@@ -4,6 +4,8 @@
 
 Developed during Meta's Coursera Front-End Development course, this project serves as a practical application of my skills in building a reservation feature for the Little Lemon Website using React Components. It's worth noting that the "Reserve a Table" function is the sole operational feature on the site.
 
+[Live](https://meta-front-end-developer-capstone.vercel.app/)
+
 ## Screenshots
 Here are some screenshots of the application.
 ![homepage](public/screencapture-homepage.png)
